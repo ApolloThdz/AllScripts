@@ -3,13 +3,13 @@ local player = game:GetService("Players").LocalPlayer
 local camera = workspace.CurrentCamera
 
 --// Settings:
-local on = true -- Use this if your making gui
+local on = false -- Use this if your making gui
 
 local Box_Color = Color3.fromRGB(0, 255, 50)
 local Box_Thickness = 1.4
 local Box_Transparency = 1 -- 1 Visible, 0 Not Visible
 
-local Tracers = true
+local Tracers = false
 local Tracer_Color = Color3.fromRGB(0, 255, 50)
 local Tracer_Thickness = 1.4
 local Tracer_Transparency = 1 -- 1 Visible, 0 Not Visible
